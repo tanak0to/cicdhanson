@@ -17,7 +17,6 @@ func main() {
 		c.String(http.StatusOK, makeGreeting(name))
 	})
 	router.Run(":8080")
-	// test
 }
 
 func makeGreeting(name string) string {
